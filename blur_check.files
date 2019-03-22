@@ -1,0 +1,10 @@
+build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c
+build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+build/CMakeFiles/feature_tests.c
+build/CMakeFiles/feature_tests.cxx
+filter_blur.cpp
+haar_filter.cpp
+include/filter_blur.h
+include/haar_filter.h
+main.cpp
+main_detection_glass.cpp

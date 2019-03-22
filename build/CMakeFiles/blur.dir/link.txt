@@ -1,0 +1,2 @@
+/usr/bin/ar qc libblur.a  CMakeFiles/blur.dir/filter_blur.cpp.o CMakeFiles/blur.dir/haar_filter.cpp.o
+/usr/bin/ranlib libblur.a

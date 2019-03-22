@@ -1,0 +1,21 @@
+PREFIX=/opt/ego
+source /etc/profile
+# export TENSORFLOW_DIR=$PREFIX/tensorflow
+# export PROTOBUF_DIR=$PREFIX/protobuf
+# export PROTOC=$PROTOBUF_DIR/bin/protoc
+# export PATH=$PROTOBUF_DIR/bin:$PATH
+# export Caffe_DIR=$PREFIX/caffe-rcnn-face-ssd
+# export PYTHONPATH=$Caffe_DIR/python
+# export PYTHONPATH=$PYTHONPATH:$PREFIX/py-faster-rcnn:$PROTOBUF_DIR/lib/python2.7/site-packages
+# export CUDNN_ROOT=$PREFIX/cudnn-v7
+# export CUDNN_HOME=$CUDNN_ROOT
+export OpenCV_DIR=$PREFIX/opencv
+export BOOST_ROOT=$PREFIX/boost
+# export dlib_DIR=$PREFIX/dlib
+# export NCCL_DIR=$PREFIX/nccl
+# export OpenPose_DIR=$PREFIX/openpose
+# export ImageMagick_DIR=$PREFIX/imagemagick
+export LD_LIBRARY_PATH=$OpenCV_DIR/lib:$BOOST_ROOT/lib
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PREFIX/runtime/lib:$ImageMagick_DIR/lib:$PROTOBUF_DIR/lib:$TENSORFLOW_DIR/lib:$PREFIX/glog/lib:$PREFIX/gflags/lib
+# export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$ImageMagick_DIR/lib/pkgconfig:$PROTOBUF_DIR/lib/pkgconfig
+# export CMAKE_PREFIX_PATH=$PREFIX
